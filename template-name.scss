@@ -1,16 +1,20 @@
 .theme-dark {
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"] {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"],
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] div[class^="name__"] {
         color: rgba(0, 0, 0, 0);
         position: relative;
         z-index: 1;
     }
 
     div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="channel)"] div,
-    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="channel)"] div {
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="channel)"] div,
+    div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="канал"] div,
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="канал"] div {
         color: rgba(0, 0, 0, 0) !important;
     }
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"]::before {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"]::before,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] div[class^="name__"]::before  {
         content: '<name>';
         position: absolute;
         left: 0;
@@ -24,22 +28,23 @@
         text-overflow: ellipsis;
         overflow: hidden;
     }
-    
-}
 
-.theme-dark {
-    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"] {
+    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"],
+    [data-list-item-id="channels___<id>"][aria-label*="категория"] div[class^="overflow__"] {
         color: rgba(0, 0, 0, 0);
         position: relative;
         z-index: 1;
     }
 
     div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="category"] div,
-    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="category"] div {
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="category"] div,
+    div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="категория"] div,
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="категория"] div {
         color: rgba(0, 0, 0, 0) !important;
     }
 
-    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"]::after {
+    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"]::after,
+    [data-list-item-id="channels___<id>"][aria-label*="категория"] div[class^="overflow__"]::after {
         content: '— <name>';
         position: absolute;
         left: 0;
@@ -47,5 +52,4 @@
         color: <color>;
         z-index: 2;
     }
-    
 }

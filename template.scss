@@ -2,11 +2,13 @@
     $svg_channel_<id>: "data:image/svg+xml,<svg>";
     $mute_icon_<id>: "data:image/svg+xml,<mute>";
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] [role=img] {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] [role=img],
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"] [role=img] {
         display: none;
     }
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::before {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::before,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"]::before {
         content: "";
         display: inline-block;
         background-image: url("#{$svg_channel_<id>}");
@@ -16,7 +18,8 @@
         position: relative;
     }
 
-    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::after {
+    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::after,
+    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"]::after {
         content: "";
         display: block;
         background-image: url("#{$mute_icon_<id>}");
