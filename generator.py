@@ -4,18 +4,19 @@ import json5
 
 
 def generate_scss(
-        channel_id: str, svg_icon: str,
-        channel_name: str, mute_icon: str,
-        color: str = "#BDBDBD",
-        template: str = '',
-        ) -> str:
+    channel_id: str,
+    svg_icon: str,
+    channel_name: str,
+    mute_icon: str,
+    color: str = "#BDBDBD",
+    template: str = "",
+) -> str:
     if not color.startswith("#") and len(color) in (3, 6):
         color = f"#{color}"
     encoded_svg = urllib.parse.quote(svg_icon)
     encoded_svg_mute = urllib.parse.quote(mute_icon)
     scss_code = (
-        template
-        .replace("<id>", channel_id)
+        template.replace("<id>", channel_id)
         .replace("<svg>", encoded_svg)
         .replace("<name>", channel_name)
         .replace("<color>", color)
@@ -25,12 +26,12 @@ def generate_scss(
 
 
 def append_to_file(file_path, content):
-    with open(file_path, 'a') as file:
+    with open(file_path, "a") as file:
         file.write(content)
 
 
 def read_file(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         return file.read()
 
 
@@ -39,7 +40,7 @@ def compile_scss_to_css(scss_code):
 
 
 def write_file(file_path, content):
-    with open(file_path, 'w') as f:
+    with open(file_path, "w") as f:
         f.write(content)
 
 
@@ -62,13 +63,13 @@ for x in generate_dict["channels"]:
     color = "#BDBDBD"
     if "color" in x:
         color = x["color"]
-    template = './template.scss'
-    noname_template = './template-noname.scss'
-    name_template = './template-name.scss'
+    template = "./template.scss"
+    noname_template = "./template-noname.scss"
+    name_template = "./template-name.scss"
     with open(template) as f:
         template = f.read()
     if "name" not in x:
-        x["name"] = ''
+        x["name"] = ""
         with open(noname_template) as f:
             template += f.read()
     else:
@@ -80,7 +81,7 @@ for x in generate_dict["channels"]:
         channel_name=x["name"],
         color=color,
         template=template,
-        mute_icon=svg_str_mute
+        mute_icon=svg_str_mute,
     )
     append_to_file("./theme.scss", scss)
     scss_file_content = read_file("./theme.scss")
