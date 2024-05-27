@@ -1,0 +1,31 @@
+.theme-dark {
+    $svg_channel_<id>: "data:image/svg+xml,<svg>";
+    $mute_icon_<id>: "data:image/svg+xml,<mute>";
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] [role=img] {
+        display: none;
+    }
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::before {
+        content: "";
+        display: inline-block;
+        background-image: url("#{$svg_channel_<id>}");
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        position: relative;
+    }
+
+    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::after {
+        content: "";
+        display: block;
+        background-image: url("#{$mute_icon_<id>}");
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-70%, -70%);
+    }
+}

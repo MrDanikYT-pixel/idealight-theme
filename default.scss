@@ -1,0 +1,44 @@
+/**
+ * @name IdeaLight theme
+ * @version 1.0
+ * @description Theme for IdeaLight
+ * @author mrdan__
+ * @authorId 476046299691745300
+ * @source ...
+ * @invite 2e5SMn73Hw 
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+.theme-dark {  
+    --accent-hue: 14deg;
+    --accent-saturation: 100%;
+    --accent-lightness: 86%;
+	--accent-text-color: #BF360C;
+}
+.theme-light {
+    --accent-hue: 14deg;
+    --accent-saturation: 100%;
+    --accent-lightness: 84%;
+	--accent-text-color: #BF360C;
+}
+
+
+[data-list-item-id="guildsnav___488281306757595147"][class*="wrapper__"] [class*="icon__"] {
+    border: 2px solid #FF7043;
+    box-sizing: border-box;
+}
+
+[data-list-item-id="guildsnav___1012398526459818094"][class*="wrapper__"] [class*="icon__"] {
+    border: 2px solid #E53935;
+    box-sizing: border-box;
+}
+
+[data-list-item-id="guildsnav___1003610934423592980"][class*="wrapper__"] [class*="icon__"] {
+    border: 2px solid #5C6BC0;
+    box-sizing: border-box;
+}
+
+[data-list-item-id="guildsnav___875456471356276816"][class*="wrapper__"] [class*="icon__"] {
+    border: 2px solid #FFEE58;
+    box-sizing: border-box;
+}

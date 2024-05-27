@@ -1,0 +1,51 @@
+.theme-dark {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"] {
+        color: rgba(0, 0, 0, 0);
+        position: relative;
+        z-index: 1;
+    }
+
+    div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="channel)"] div,
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="channel)"] div {
+        color: rgba(0, 0, 0, 0) !important;
+    }
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"]::before {
+        content: '<name>';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: <color>;
+        max-width: 15ch;
+        z-index: 2;
+        white-space: nowrap;
+        padding-right: 10px; 
+        display: inline-block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+}
+
+.theme-dark {
+    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"] {
+        color: rgba(0, 0, 0, 0);
+        position: relative;
+        z-index: 1;
+    }
+
+    div[class*="modeSelected"]>div>a[data-list-item-id="channels___<id>"][aria-label*="category"] div,
+    div:hover>a[data-list-item-id="channels___<id>"][aria-label*="category"] div {
+        color: rgba(0, 0, 0, 0) !important;
+    }
+
+    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"]::after {
+        content: '— <name>';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: <color>;
+        z-index: 2;
+    }
+    
+}

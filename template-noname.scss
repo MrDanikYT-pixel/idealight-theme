@@ -1,0 +1,11 @@
+.theme-dark {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] div[class^="name__"] {
+        color: <color>;
+    }
+}
+
+.theme-dark {
+    [data-list-item-id="channels___<id>"][aria-label*="category"] div[class^="overflow__"] {
+        color: <color>;
+    }
+}
