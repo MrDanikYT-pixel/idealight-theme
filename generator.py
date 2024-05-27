@@ -8,6 +8,7 @@ def generate_scss(
     svg_icon: str,
     channel_name: str,
     mute_icon: str,
+    lock_icon: str,
     color: str = "#BDBDBD",
     template: str = "",
 ) -> str:
@@ -15,12 +16,14 @@ def generate_scss(
         color = f"#{color}"
     encoded_svg = urllib.parse.quote(svg_icon)
     encoded_svg_mute = urllib.parse.quote(mute_icon)
+    encoded_svg_lock = urllib.parse.quote(lock_icon)
     scss_code = (
         template.replace("<id>", channel_id)
         .replace("<svg>", encoded_svg)
         .replace("<name>", channel_name)
         .replace("<color>", color)
         .replace("<mute>", encoded_svg_mute)
+        .replace("<lock>", encoded_svg_lock)
     )
     return scss_code
 
@@ -59,10 +62,13 @@ for x in generate_dict["channels"]:
         svg_str = f.read()
     with open(generate_dict["settings"]["mute_icon"]) as f:
         svg_str_mute = f.read()
+    with open(generate_dict["settings"]["lock_icon"]) as f:
+        svg_str_lock = f.read()
 
     color = "#BDBDBD"
     if "color" in x:
         color = x["color"]
+    svg_str_mute = svg_str_mute.replace("<color>", color)
     template = "./template.scss"
     noname_template = "./template-noname.scss"
     name_template = "./template-name.scss"
@@ -82,6 +88,7 @@ for x in generate_dict["channels"]:
         color=color,
         template=template,
         mute_icon=svg_str_mute,
+        lock_icon=svg_str_lock
     )
     append_to_file("./theme.scss", scss)
     scss_file_content = read_file("./theme.scss")

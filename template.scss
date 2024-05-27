@@ -1,14 +1,22 @@
 .theme-dark {
     $svg_channel_<id>: "data:image/svg+xml,<svg>";
     $mute_icon_<id>: "data:image/svg+xml,<mute>";
+    $lock_icon_<id>: "data:image/svg+xml,<lock>";
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] [role=img],
-    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"] [role=img] {
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] svg,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"] svg {
+        color: rgba(0, 0, 0, 0);
+    }
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] svg path,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] svg path {
         display: none;
     }
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::before,
-    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"]::before {
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"] svg,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"] svg {
         content: "";
         display: inline-block;
         background-image: url("#{$svg_channel_<id>}");
@@ -18,17 +26,32 @@
         position: relative;
     }
 
-    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::after,
-    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"]::after {
+
+    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="icon"]::before,
+    [class*="modeMuted_"] [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="icon"]::before {
         content: "";
         display: block;
         background-image: url("#{$mute_icon_<id>}");
-        width: 20px;
-        height: 20px;
+        width: 12px;
+        height: 12px;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-65%, -65%);
+    }
+
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] [aria-label*="Limited"]::after,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] [aria-label*="ограниченный"]::after {
+        content: "";
+        display: block;
+        background-image: url("#{$lock_icon_<id>}");
+        width: 12px;
+        height: 12px;
         background-size: contain;
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-65%, -65%);
+        transform: translate(65%, -65%);
     }
 }
