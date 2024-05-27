@@ -325,6 +325,39 @@
         "svg": "./svg/yellow/ad",
         "name": "Авто партнёрство",
         "color": "#FFE082"
+    },
+
+    // IdeaLight Beta
+    // Цвет: Светло красный Иконки: #FF8A80 Текст: #E57373
+    {
+        "id": 1167140443381846036,
+        "svg": "./svg/il_beta/rules",
+        "name": "Правила",
+        "color": "#E57373"
+    },
+    {
+        "id": 1167144896616992819,
+        "svg": "./svg/il_beta/spoilers",
+        "name": "Спойлеры",
+        "color": "#E57373"
+    },
+    {
+        "id": 1167144702894682175,
+        "svg": "./svg/il_beta/chat",
+        "name": "Чат",
+        "color": "#E57373"
+    },
+    {
+        "id": 1167862813423845456,
+        "svg": "./svg/il_beta/info",
+        "name": "Ресурсы",
+        "color": "#E57373"
+    },
+    {
+        "id": 1167858232409206954,
+        "svg": "./svg/il_beta/bot",
+        "name": "Чат бот",
+        "color": "#E57373"
     }
 ],"settings":
 {
