@@ -9,8 +9,8 @@
         color: rgba(0, 0, 0, 0);
     }
 
-    [data-list-item-id="channels___<id>"][aria-label*="channel)"] svg path,
-    [data-list-item-id="channels___<id>"][aria-label*="канал"] svg path {
+    [data-list-item-id="channels___<id>"][aria-label*="channel)"] svg:not([class*="actionIcon"]) path,
+    [data-list-item-id="channels___<id>"][aria-label*="канал"] svg:not([class*="actionIcon"]) path {
         display: none;
     }
 
