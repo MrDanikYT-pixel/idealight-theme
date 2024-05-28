@@ -3733,6 +3733,109 @@
   z-index: 2;
 }
 
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] [aria-label*="icon"] svg,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] [aria-label*="icon"] svg {
+  color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] svg:not([class*="actionIcon"]) path,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] svg:not([class*="actionIcon"]) path {
+  display: none;
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] [aria-label*="icon"] svg,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] [aria-label*="icon"] svg {
+  content: "";
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20id%3D%22sound-max%22%20class%3D%22icon%20glyph%22%20fill%3D%22%23000000%22%3E%3Cg%20id%3D%22SVGRepo_bgCarrier%22%20stroke-width%3D%220%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_tracerCarrier%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_iconCarrier%22%3E%3Cpath%20d%3D%22M18.36%2C19.36a1%2C1%2C0%2C0%2C1-.7-.29%2C1%2C1%2C0%2C0%2C1%2C0-1.41%2C8%2C8%2C0%2C0%2C0%2C0-11.32%2C1%2C1%2C0%2C0%2C1%2C1.41-1.41%2C10%2C10%2C0%2C0%2C1%2C0%2C14.14A1%2C1%2C0%2C0%2C1%2C18.36%2C19.36Z%22%20style%3D%22fill%3A%23E0E0E0%22%3E%3C/path%3E%3Cpath%20d%3D%22M15.54%2C16.54a1%2C1%2C0%2C0%2C1-.71-.3%2C1%2C1%2C0%2C0%2C1%2C0-1.41%2C4%2C4%2C0%2C0%2C0%2C0-5.66%2C1%2C1%2C0%2C0%2C1%2C1.41-1.41%2C6%2C6%2C0%2C0%2C1%2C0%2C8.48A1%2C1%2C0%2C0%2C1%2C15.54%2C16.54Z%22%20style%3D%22fill%3A%23E0E0E0%22%3E%3C/path%3E%3Cpath%20d%3D%22M11.38%2C4.08a1%2C1%2C0%2C0%2C0-1.09.21L6.59%2C8H4a2%2C2%2C0%2C0%2C0-2%2C2v4a2%2C2%2C0%2C0%2C0%2C2%2C2H6.59l3.7%2C3.71A1%2C1%2C0%2C0%2C0%2C11%2C20a.84.84%2C0%2C0%2C0%2C.38-.08A1%2C1%2C0%2C0%2C0%2C12%2C19V5A1%2C1%2C0%2C0%2C0%2C11.38%2C4.08Z%22%20style%3D%22fill%3A%23E0E0E0%22%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  position: relative;
+}
+
+.theme-dark [class*="modeMuted_"] [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] [aria-label*="icon"]::before,
+.theme-dark [class*="modeMuted_"] [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] [aria-label*="icon"]::before {
+  content: "";
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20id%3D%22SVGRepo_bgCarrier%22%20stroke-width%3D%220%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_tracerCarrier%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_iconCarrier%22%3E%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M14.6858%205.25049C14.9661%205.36504%2015.2375%205.5069%2015.4989%205.67268L14.0768%207.09474C13.4417%206.74642%2012.7451%206.54545%2012.014%206.54545C8.98598%206.54545%206.55028%209.99301%206.61731%2013.0789L6.64867%2014.5229L4.00243%2017.1691C3.96883%2016.4103%204.28593%2015.5678%204.83409%2014.8631L4.83412%2013.1192C4.76592%209.97935%206.64516%206.35644%209.33497%205.25342V4.72727C9.33497%204.00395%209.61684%203.31026%2010.1186%202.7988C10.6203%202.28734%2011.3008%202%2012.0104%202C12.72%202%2013.4005%202.28734%2013.9022%202.7988C14.404%203.31026%2014.6858%204.00396%2014.6858%204.72727V5.25049ZM12.9022%204.72727C12.9022%204.74573%2012.9017%204.76414%2012.9006%204.78246C12.6101%204.74603%2012.3142%204.72727%2012.014%204.72727C11.7113%204.72727%2011.413%204.74634%2011.1203%204.78335C11.1192%204.76474%2011.1186%204.74603%2011.1186%204.72727C11.1186%204.48617%2011.2126%204.25494%2011.3798%204.08445C11.547%203.91396%2011.7739%203.81818%2012.0104%203.81818C12.2469%203.81818%2012.4738%203.91396%2012.641%204.08445C12.8083%204.25494%2012.9022%204.48617%2012.9022%204.72727Z%22%20fill%3D%22%23dedede%22%3E%3C/path%3E%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M16.7466%2010.0819L18.1266%208.7018C18.8316%2010.0755%2019.2262%2011.6514%2019.1938%2013.1216L19.1555%2014.8576C20.5323%2016.6278%2020.4826%2019.2727%2017.0538%2019.2727H14.6858C14.6858%2019.996%2014.404%2020.6897%2013.9022%2021.2012C13.4005%2021.7127%2012.72%2022%2012.0104%2022C11.3008%2022%2010.6203%2021.7127%2010.1186%2021.2012C9.61684%2020.6897%209.33497%2019.996%209.33497%2019.2727H7.5557L9.37388%2017.4545H17.0538C17.8157%2017.4545%2018.2267%2016.5435%2017.7309%2015.9538C17.49%2015.6673%2017.3616%2015.3028%2017.3699%2014.9286L17.4106%2013.0808C17.4328%2012.0757%2017.1894%2011.0322%2016.7466%2010.0819ZM11.1186%2019.2727C11.1186%2019.5138%2011.2126%2019.7451%2011.3798%2019.9156C11.547%2020.086%2011.7739%2020.1818%2012.0104%2020.1818C12.2469%2020.1818%2012.4738%2020.086%2012.641%2019.9156C12.8083%2019.7451%2012.9022%2019.5138%2012.9022%2019.2727H11.1186Z%22%20fill%3D%22%23dedede%22%3E%3C/path%3E%20%3Cpath%20d%3D%22M19.7071%205.70711C20.0976%205.31658%2020.0976%204.68342%2019.7071%204.29289C19.3166%203.90237%2018.6834%203.90237%2018.2929%204.29289L4.29289%2018.2929C3.90237%2018.6834%203.90237%2019.3166%204.29289%2019.7071C4.68342%2020.0976%205.31658%2020.0976%205.70711%2019.7071L19.7071%205.70711Z%22%20fill%3D%22%23dedede%22%3E%3C/path%3E%20%3C/g%3E%3C/svg%3E");
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-65%, -65%);
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] [aria-label*="Limited"]::after,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] [aria-label*="ограниченный"]::after {
+  content: "";
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20id%3D%22SVGRepo_bgCarrier%22%20stroke-width%3D%220%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_tracerCarrier%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C/g%3E%3Cg%20id%3D%22SVGRepo_iconCarrier%22%3E%20%3Cpath%20d%3D%22M13%2014C13%2013.4477%2012.5523%2013%2012%2013C11.4477%2013%2011%2013.4477%2011%2014V16C11%2016.5523%2011.4477%2017%2012%2017C12.5523%2017%2013%2016.5523%2013%2016V14Z%22%20fill%3D%22%23dedede%22%3E%3C/path%3E%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7%208.12037C5.3161%208.53217%204%209.95979%204%2011.7692V17.3077C4%2019.973%206.31545%2022%209%2022H15C17.6846%2022%2020%2019.973%2020%2017.3077V11.7692C20%209.95979%2018.6839%208.53217%2017%208.12037V7C17%204.23858%2014.7614%202%2012%202C9.23858%202%207%204.23858%207%207V8.12037ZM15%207V8H9V7C9%206.64936%209.06015%206.31278%209.17071%206C9.58254%204.83481%2010.6938%204%2012%204C13.3062%204%2014.4175%204.83481%2014.8293%206C14.9398%206.31278%2015%206.64936%2015%207ZM6%2011.7692C6%2010.866%206.81856%2010%208%2010H16C17.1814%2010%2018%2010.866%2018%2011.7692V17.3077C18%2018.7208%2016.7337%2020%2015%2020H9C7.26627%2020%206%2018.7208%206%2017.3077V11.7692Z%22%20fill%3D%22%23dedede%22%3E%3C/path%3E%20%3C/g%3E%3C/svg%3E");
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(65%, -65%);
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class^="name__"],
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class^="name__"] {
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  z-index: 1;
+}
+
+.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div,
+.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div,
+.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div,
+.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class^="name__"]::before,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class^="name__"]::before {
+  content: 'Общий';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #9E9E9E;
+  max-width: 15ch;
+  z-index: 2;
+  white-space: nowrap;
+  padding-right: 10px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class^="overflow__"],
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class^="overflow__"] {
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  z-index: 1;
+}
+
+.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div,
+.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div,
+.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div,
+.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class^="overflow__"]::after,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class^="overflow__"]::after {
+  content: '— Общий';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #9E9E9E;
+  z-index: 2;
+}
+
 .theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] [aria-label*="icon"] svg,
 .theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] [aria-label*="icon"] svg {
   color: rgba(0, 0, 0, 0);
