@@ -89,6 +89,12 @@
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"] {
     border: 4px solid;
     border-color: #FFA726;
+    border-radius: 20px !important;
+}
+
+[id*="chat-messages-1015346516807929927"] {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"] [class*="contents_"] {
