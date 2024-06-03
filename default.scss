@@ -1,6 +1,6 @@
 /**
  * @name IdeaLight theme
- * @version 1.4.1
+ * @version 1.5.4
  * @description Theme for IdeaLight
  * @author mrdan__
  * @authorId 476046299691745300
@@ -60,18 +60,19 @@
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"],
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"],
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] {
-    border: 4px solid;
+    // border: 4px solid;
     border-color: #FFA726;
     border-radius: 20px !important;
     padding: 0px !important;
     margin-top: 10px;
+    background-color: transparent !important;
 
     [class*="embedWrapper__"] [href] span {
         color: #FFA726;
     }
 
     [class*="container__"] {
-        padding: 10px !important;
+        // padding: 0px !important;
         grid-row-gap: 10px !important;
     }
 
@@ -82,7 +83,10 @@
     }
 
     [class*="contents_"] {
-        display: none;
+        [class*="headerText_"], [class*="edited_"], img,
+        [class*="messageContent_"] [class*="timestamp_"] {
+            display: none;
+        }
     }
 }
 

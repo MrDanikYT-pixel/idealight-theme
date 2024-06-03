@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /**
  * @name IdeaLight theme
- * @version 1.4.1
+ * @version 1.5.4
  * @description Theme for IdeaLight
  * @author mrdan__
  * @authorId 476046299691745300
@@ -58,11 +58,11 @@
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"],
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"],
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] {
-  border: 4px solid;
   border-color: #FFA726;
   border-radius: 20px !important;
   padding: 0px !important;
   margin-top: 10px;
+  background-color: transparent !important;
 }
 
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="embedWrapper__"] [href] span,
@@ -76,7 +76,6 @@
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="container__"],
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="container__"],
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="container__"] {
-  padding: 10px !important;
   grid-row-gap: 10px !important;
 }
 
@@ -89,10 +88,30 @@
   border-color: #FFA726;
 }
 
-[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"],
-[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"],
-[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"],
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] {
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] img,
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] img,
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] img,
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] img,
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child {
   display: none;
 }
 
