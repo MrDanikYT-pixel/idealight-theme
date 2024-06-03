@@ -11,32 +11,25 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
 
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
-
 .theme-dark {
     --main-color: #100f0e;
     --main-alt: #171615;
     --message-color: #171615;
     --message-color-hover: #1e1d1c;
-    --accent-hue: 15deg;
+    --accent-hue: 14deg;
     --accent-saturation: 100%;
-    --accent-lightness: 85%;
-    --accent-text-color: #994328;
+    --accent-lightness: 78%;
+    --accent-text-color: #BF360C;
     --popout-color: #141312;
     --main-textarea-color: #171615;
     --tooltip-color: #171615;
 }
 
 .theme-light {
-    --accent-hue: 15deg;
+    --accent-hue: 14deg;
     --accent-saturation: 100%;
-    --accent-lightness: 85%;
-    --accent-text-color: #994328;
-}
-
-
-[data-list-item-id="guildsnav___488281306757595147"][class*="wrapper__"] [class*="icon__"] {
-    border: 2px solid #FF7043;
-    box-sizing: border-box;
+    --accent-lightness: 78%;
+    --accent-text-color: #BF360C;
 }
 
 [data-list-item-id="guildsnav___1012398526459818094"][class*="wrapper__"] [class*="icon__"] {
