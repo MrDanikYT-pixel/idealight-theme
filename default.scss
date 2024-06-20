@@ -71,12 +71,12 @@
         color: #FFA726;
     }
 
-    [class*="container__"] {
+    [class*="container_"] {
         // padding: 0px !important;
         grid-row-gap: 10px !important;
     }
 
-    [class*="embedWrapper_"]:not([class*="imageContent__"]) {
+    [class*="embedWrapper_"]:not([class*="imageContent_"]) {
         border: 4px solid;
         border-radius: 10px !important;
         border-color: #FFA726;
