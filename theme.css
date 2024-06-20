@@ -31,26 +31,26 @@
   --accent-text-color: #BF360C;
 }
 
-[data-list-item-id="guildsnav___1012398526459818094"][class*="wrapper__"] [class*="icon__"] {
+[data-list-item-id="guildsnav___1012398526459818094"][class*="wrapper_"] [class*="icon__"] {
   border: 2px solid #E53935;
   box-sizing: border-box;
 }
 
-[data-list-item-id="guildsnav___1003610934423592980"][class*="wrapper__"] [class*="icon__"] {
+[data-list-item-id="guildsnav___1003610934423592980"][class*="wrapper_"] [class*="icon__"] {
   border: 2px solid #5C6BC0;
   box-sizing: border-box;
 }
 
-[data-list-item-id="guildsnav___875456471356276816"][class*="wrapper__"] [class*="icon__"] {
+[data-list-item-id="guildsnav___875456471356276816"][class*="wrapper_"] [class*="icon__"] {
   border: 2px solid #FFEE58;
   box-sizing: border-box;
 }
 
-[data-author-id="1104519187902251130"] [class*="embedWrapper__"] {
+[data-author-id="1104519187902251130"] [class*="embedWrapper_"] {
   border: 4px solid;
 }
 
-[data-author-id="1101476120932667432"] [class*="embedWrapper__"] {
+[data-author-id="1101476120932667432"] [class*="embedWrapper_"] {
   border: 4px solid;
 }
 
@@ -65,10 +65,10 @@
   background-color: transparent !important;
 }
 
-[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="embedWrapper__"] [href] span,
-[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="embedWrapper__"] [href] span,
-[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="embedWrapper__"] [href] span,
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="embedWrapper__"] [href] span {
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="embedWrapper_"] [href] span,
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="embedWrapper_"] [href] span,
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="embedWrapper_"] [href] span,
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="embedWrapper_"] [href] span {
   color: #FFA726;
 }
 
@@ -79,10 +79,10 @@
   grid-row-gap: 10px !important;
 }
 
-[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="embedWrapper__"]:not([class*="imageContent__"]),
-[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="embedWrapper__"]:not([class*="imageContent__"]),
-[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="embedWrapper__"]:not([class*="imageContent__"]),
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="embedWrapper__"]:not([class*="imageContent__"]) {
+[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="embedWrapper_"]:not([class*="imageContent__"]),
+[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="embedWrapper_"]:not([class*="imageContent__"]),
+[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="embedWrapper_"]:not([class*="imageContent__"]),
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="embedWrapper_"]:not([class*="imageContent__"]) {
   border: 4px solid;
   border-radius: 10px !important;
   border-color: #FFA726;
@@ -92,26 +92,18 @@
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] img,
 [data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
-[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
-[data-list-item-id*="chat-messages___chat-messages-1015346516807929927"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] img,
 [data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
-[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
-[data-list-item-id*="chat-messages___chat-messages-1166732314349404291"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] img,
 [data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
-[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
-[data-list-item-id*="chat-messages___chat-messages-1015573724931563540"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child,
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="headerText_"],
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="edited_"],
 [data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] img,
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"],
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:empty,
-[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"]:not(:empty):only-child {
+[data-list-item-id*="chat-messages___chat-messages-1223786586207031326"][class*="cozy_"] [class*="contents_"] [class*="messageContent_"] [class*="timestamp_"] {
   display: none;
 }
 
@@ -170,22 +162,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Чат';
   position: absolute;
   left: 0;
@@ -200,22 +185,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1014801129361641562"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Чат';
   position: absolute;
   left: 0;
@@ -271,22 +249,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Other languages';
   position: absolute;
   left: 0;
@@ -301,22 +272,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1232421428192874576"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Other languages';
   position: absolute;
   left: 0;
@@ -372,22 +336,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Чат друзей';
   position: absolute;
   left: 0;
@@ -402,22 +359,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1128740027057319966"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Чат друзей';
   position: absolute;
   left: 0;
@@ -473,22 +423,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Кодинг';
   position: absolute;
   left: 0;
@@ -503,22 +446,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015591992027250749"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Кодинг';
   position: absolute;
   left: 0;
@@ -574,22 +510,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Мемы';
   position: absolute;
   left: 0;
@@ -604,22 +533,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015572606646231070"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Мемы';
   position: absolute;
   left: 0;
@@ -675,22 +597,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Суд';
   position: absolute;
   left: 0;
@@ -705,22 +620,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1169751638785921156"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Суд';
   position: absolute;
   left: 0;
@@ -776,22 +684,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Боты';
   position: absolute;
   left: 0;
@@ -806,22 +707,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015572072279310348"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Боты';
   position: absolute;
   left: 0;
@@ -877,22 +771,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Не модерируется';
   position: absolute;
   left: 0;
@@ -907,22 +794,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015572192429350923"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Не модерируется';
   position: absolute;
   left: 0;
@@ -978,22 +858,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Nsfw';
   position: absolute;
   left: 0;
@@ -1008,22 +881,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1101608762453798996"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Nsfw';
   position: absolute;
   left: 0;
@@ -1079,22 +945,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Бампы';
   position: absolute;
   left: 0;
@@ -1109,22 +968,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1030904286143590470"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Бампы';
   position: absolute;
   left: 0;
@@ -1180,22 +1032,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Чат админов';
   position: absolute;
   left: 0;
@@ -1210,22 +1055,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1195786774035832883"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Чат админов';
   position: absolute;
   left: 0;
@@ -1281,22 +1119,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Форум';
   position: absolute;
   left: 0;
@@ -1311,22 +1142,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1031243482813186100"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Форум';
   position: absolute;
   left: 0;
@@ -1382,22 +1206,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Правила';
   position: absolute;
   left: 0;
@@ -1412,22 +1229,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015346516807929927"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Правила';
   position: absolute;
   left: 0;
@@ -1483,22 +1293,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Новости';
   position: absolute;
   left: 0;
@@ -1513,22 +1316,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015571820654624829"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Новости';
   position: absolute;
   left: 0;
@@ -1584,22 +1380,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Спойлеры';
   position: absolute;
   left: 0;
@@ -1614,22 +1403,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1103314520031637515"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Спойлеры';
   position: absolute;
   left: 0;
@@ -1685,22 +1467,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Каналы и роли';
   position: absolute;
   left: 0;
@@ -1715,22 +1490,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1166732314349404291"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Каналы и роли';
   position: absolute;
   left: 0;
@@ -1786,22 +1554,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Приветствия';
   position: absolute;
   left: 0;
@@ -1816,22 +1577,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015573724931563540"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Приветствия';
   position: absolute;
   left: 0;
@@ -1887,22 +1641,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Голосование';
   position: absolute;
   left: 0;
@@ -1917,22 +1664,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015957374965645353"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Голосование';
   position: absolute;
   left: 0;
@@ -1988,22 +1728,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Персонажи';
   position: absolute;
   left: 0;
@@ -2018,22 +1751,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1223806102576037900"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Персонажи';
   position: absolute;
   left: 0;
@@ -2089,22 +1815,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Актив';
   position: absolute;
   left: 0;
@@ -2119,22 +1838,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1223786586207031326"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Актив';
   position: absolute;
   left: 0;
@@ -2190,22 +1902,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Тема';
   position: absolute;
   left: 0;
@@ -2220,22 +1925,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1244692551894700154"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Тема';
   position: absolute;
   left: 0;
@@ -2291,13 +1989,13 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="канал"] div[class^="name__"] {
+.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="канал"] div[class*="name_"] {
   color: #4FC3F7;
 }
 
-.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1154400124911505560"][aria-label*="категория"] div[class*="overflow_"] {
   color: #4FC3F7;
 }
 
@@ -2348,13 +2046,13 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="канал"] div[class^="name__"] {
+.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="канал"] div[class*="name_"] {
   color: #4FC3F7;
 }
 
-.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1016036689350754414"][aria-label*="категория"] div[class*="overflow_"] {
   color: #4FC3F7;
 }
 
@@ -2405,13 +2103,13 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="канал"] div[class^="name__"] {
+.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="канал"] div[class*="name_"] {
   color: #4FC3F7;
 }
 
-.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1016036693557641337"][aria-label*="категория"] div[class*="overflow_"] {
   color: #4FC3F7;
 }
 
@@ -2462,22 +2160,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Аудит';
   position: absolute;
   left: 0;
@@ -2492,22 +2183,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015581047326507008"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Аудит';
   position: absolute;
   left: 0;
@@ -2563,22 +2247,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Мод аудит';
   position: absolute;
   left: 0;
@@ -2593,22 +2270,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198045403396984932"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Мод аудит';
   position: absolute;
   left: 0;
@@ -2664,22 +2334,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Наказания';
   position: absolute;
   left: 0;
@@ -2694,22 +2357,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1152974453446279178"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Наказания';
   position: absolute;
   left: 0;
@@ -2765,22 +2421,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Система';
   position: absolute;
   left: 0;
@@ -2795,22 +2444,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1155117852509089802"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Система';
   position: absolute;
   left: 0;
@@ -2866,22 +2508,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Общение';
   position: absolute;
   left: 0;
@@ -2896,22 +2531,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015579621665804372"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Общение';
   position: absolute;
   left: 0;
@@ -2967,22 +2595,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Новости';
   position: absolute;
   left: 0;
@@ -2997,22 +2618,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1158404262477451355"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Новости';
   position: absolute;
   left: 0;
@@ -3068,22 +2682,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Обновления';
   position: absolute;
   left: 0;
@@ -3098,22 +2705,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1158405424731664394"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Обновления';
   position: absolute;
   left: 0;
@@ -3169,22 +2769,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Статус';
   position: absolute;
   left: 0;
@@ -3199,22 +2792,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1157698685791113326"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Статус';
   position: absolute;
   left: 0;
@@ -3270,22 +2856,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'LightBot логи';
   position: absolute;
   left: 0;
@@ -3300,22 +2879,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1116095405671858376"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— LightBot логи';
   position: absolute;
   left: 0;
@@ -3371,22 +2943,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'LightBot бета';
   position: absolute;
   left: 0;
@@ -3401,22 +2966,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1104785407163506728"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— LightBot бета';
   position: absolute;
   left: 0;
@@ -3472,22 +3030,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Интерфейс';
   position: absolute;
   left: 0;
@@ -3502,22 +3053,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015704816430882816"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Интерфейс';
   position: absolute;
   left: 0;
@@ -3573,22 +3117,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Создать войс';
   position: absolute;
   left: 0;
@@ -3603,22 +3140,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015704814962880563"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Создать войс';
   position: absolute;
   left: 0;
@@ -3674,22 +3204,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Афк';
   position: absolute;
   left: 0;
@@ -3704,22 +3227,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1102929801272098826"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Афк';
   position: absolute;
   left: 0;
@@ -3775,22 +3291,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Общий';
   position: absolute;
   left: 0;
@@ -3805,22 +3314,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1245002954826584064"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Общий';
   position: absolute;
   left: 0;
@@ -3876,22 +3378,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Голосовые';
   position: absolute;
   left: 0;
@@ -3906,22 +3401,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015704813775896586"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Голосовые';
   position: absolute;
   left: 0;
@@ -3977,22 +3465,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Модерация';
   position: absolute;
   left: 0;
@@ -4007,22 +3488,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015578928179597373"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Модерация';
   position: absolute;
   left: 0;
@@ -4078,22 +3552,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Статистика';
   position: absolute;
   left: 0;
@@ -4108,22 +3575,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1016036681847156894"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Статистика';
   position: absolute;
   left: 0;
@@ -4179,22 +3639,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Информация';
   position: absolute;
   left: 0;
@@ -4209,22 +3662,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015571577330487296"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Информация';
   position: absolute;
   left: 0;
@@ -4280,22 +3726,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Общение';
   position: absolute;
   left: 0;
@@ -4310,22 +3749,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015571353744715867"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Общение';
   position: absolute;
   left: 0;
@@ -4381,22 +3813,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'LightBot';
   position: absolute;
   left: 0;
@@ -4411,22 +3836,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1158403985921814548"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— LightBot';
   position: absolute;
   left: 0;
@@ -4482,22 +3900,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Игровая';
   position: absolute;
   left: 0;
@@ -4512,22 +3923,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198975336831004702"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Игровая';
   position: absolute;
   left: 0;
@@ -4583,22 +3987,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Другое';
   position: absolute;
   left: 0;
@@ -4613,22 +4010,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1015576134626316310"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Другое';
   position: absolute;
   left: 0;
@@ -4684,22 +4074,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Слова';
   position: absolute;
   left: 0;
@@ -4714,22 +4097,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198975516078768160"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Слова';
   position: absolute;
   left: 0;
@@ -4785,22 +4161,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Считалка';
   position: absolute;
   left: 0;
@@ -4815,22 +4184,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198975822678216724"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Считалка';
   position: absolute;
   left: 0;
@@ -4886,22 +4248,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="канал"] div[class*="name_"]::before {
   content: '6 часов чат';
   position: absolute;
   left: 0;
@@ -4916,22 +4271,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198976336644026531"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— 6 часов чат';
   position: absolute;
   left: 0;
@@ -4987,22 +4335,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Заявки РП';
   position: absolute;
   left: 0;
@@ -5017,22 +4358,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1199032555404529765"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Заявки РП';
   position: absolute;
   left: 0;
@@ -5088,22 +4422,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'РП';
   position: absolute;
   left: 0;
@@ -5118,22 +4445,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1198976532547391590"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— РП';
   position: absolute;
   left: 0;
@@ -5189,22 +4509,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'РП (nsfw)';
   position: absolute;
   left: 0;
@@ -5219,22 +4532,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1199032104546213898"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— РП (nsfw)';
   position: absolute;
   left: 0;
@@ -5290,22 +4596,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Идеи';
   position: absolute;
   left: 0;
@@ -5320,22 +4619,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1030894629312266321"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Идеи';
   position: absolute;
   left: 0;
@@ -5391,22 +4683,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Набор в модерацию';
   position: absolute;
   left: 0;
@@ -5421,22 +4706,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1152973016985239633"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Набор в модерацию';
   position: absolute;
   left: 0;
@@ -5492,22 +4770,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Авто партнёрство';
   position: absolute;
   left: 0;
@@ -5522,22 +4793,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1031242016006340688"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Авто партнёрство';
   position: absolute;
   left: 0;
@@ -5593,22 +4857,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Правила';
   position: absolute;
   left: 0;
@@ -5623,22 +4880,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1167140443381846036"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Правила';
   position: absolute;
   left: 0;
@@ -5694,22 +4944,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Спойлеры';
   position: absolute;
   left: 0;
@@ -5724,22 +4967,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1167144896616992819"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Спойлеры';
   position: absolute;
   left: 0;
@@ -5795,22 +5031,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Чат';
   position: absolute;
   left: 0;
@@ -5825,22 +5054,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1167144702894682175"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Чат';
   position: absolute;
   left: 0;
@@ -5896,22 +5118,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Ресурсы';
   position: absolute;
   left: 0;
@@ -5926,22 +5141,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1167862813423845456"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Ресурсы';
   position: absolute;
   left: 0;
@@ -5997,22 +5205,15 @@
   transform: translate(-65%, -65%);
 }
 
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div[class^="name__"],
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div[class^="name__"] {
-  color: rgba(0, 0, 0, 0);
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div[class*="name_"],
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div[class*="name_"] {
+  color: rgba(0, 0, 0, 0) !important;
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div[class^="name__"]::before,
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div[class^="name__"]::before {
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="channel)"] div[class*="name_"]::before,
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="канал"] div[class*="name_"]::before {
   content: 'Чат бот';
   position: absolute;
   left: 0;
@@ -6027,22 +5228,15 @@
   overflow: hidden;
 }
 
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div[class^="overflow__"],
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div[class^="overflow__"] {
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div[class*="overflow_"],
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div[class*="overflow_"] {
   color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
 }
 
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div,
-.theme-dark div[class*="modeSelected"]>div>a[data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div,
-.theme-dark div:hover>a[data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div {
-  color: rgba(0, 0, 0, 0) !important;
-}
-
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div[class^="overflow__"]::after,
-.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div[class^="overflow__"]::after {
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="category"] div[class*="overflow_"]::after,
+.theme-dark [data-list-item-id="channels___1167858232409206954"][aria-label*="категория"] div[class*="overflow_"]::after {
   content: '— Чат бот';
   position: absolute;
   left: 0;
